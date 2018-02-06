@@ -23,7 +23,7 @@ private:
     int size;
 public:
     //Constuctor
-    Array<type>(int size); //sets the size
+    Array<Type>(int size); //sets the size
     
     //Copy Constructor
     Array<Type>(const Array<Type> & toCopy); //& is also refernce const means it cant chang.
@@ -63,13 +63,6 @@ Array<Type> :: Array(const Array<Type> & toCopy)
         internalArray[index] = toCopy[index];
     }
 }
-
-template <class Type>
-Array<Type> :: ~Array()
-{
-    delete [] internalArray;
-}
-
 template <class Type>
 Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
 {
@@ -113,7 +106,7 @@ int Array<Type> :: getSize() const
 template <class Type>
 Type Array<Type> :: getFromIndex(int index)
 {
-    assert(index >= && Index int index)
+    assert(index >=0 && index < size);
     
     Type value = internalArray[index];
     
@@ -121,7 +114,7 @@ Type Array<Type> :: getFromIndex(int index)
 }
 
 template <class Type>
-void Array<type> :: setAtIndex(int pos, Type item)
+void Array<Type> :: setAtIndex(int pos, Type item)
 {
     assert(pos >= 0 && pos < size);
     internalArray[pos] = item;

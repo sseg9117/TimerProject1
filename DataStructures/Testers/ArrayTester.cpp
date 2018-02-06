@@ -39,5 +39,5 @@ void ArrayTester :: testArrayUse()
 
 void ArrayTester :: testAdvancedArray()
 {
-    
+
 }
