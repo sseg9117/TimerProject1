@@ -123,8 +123,8 @@ void Array<Type> :: setAtIndex(int pos, Type item)
 template <class Type>
 Array<Type> :: ~Array()
 {
-    cout << "about to delte the structure" << endl;
+    cout << "about to delte the structure " << endl;
     delete [] internalArray;
-    cout << "Iternal array delted" << endl;
+    cout << "Iternal array delted " << endl;
 }
 #endif /* Array_h */

@@ -24,7 +24,7 @@ void Controller :: start()
     codeTimer.startTimer();
     for(int i = 0; i < 216; i++)
     {
-        cout << "index is at " << i << "\t";
+        cout << " index is at " << i << "\t";
     }
     codeTimer.stopTimer();
     codeTimer.displayInformation();
