@@ -55,29 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B260AEB7202A088D00C5CB63 /* Data */ = {
+		B260AEBB202A0B8500C5CB63 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				B260AEB3202A088B00C5CB63 /* crime.csv */,
 				B260AEB5202A088B00C5CB63 /* CrimeData.cpp */,
 				B260AEB4202A088B00C5CB63 /* CrimeData.hpp */,
 			);
-			name = Data;
+			path = Data;
 			sourceTree = "<group>";
 		};
-		B260AEB8202A08A100C5CB63 /* Model */ = {
+		B260AEBC202A0B9600C5CB63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				B2E563A42024BFAC00846821 /* Structures */,
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		B260AEB9202A08B100C5CB63 /* Diagrams */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Diagrams;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B26EB026202372DD009F1607 = {
@@ -99,9 +92,8 @@
 		B26EB031202372DD009F1607 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				B260AEB9202A08B100C5CB63 /* Diagrams */,
-				B260AEB8202A08A100C5CB63 /* Model */,
-				B260AEB7202A088D00C5CB63 /* Data */,
+				B260AEBC202A0B9600C5CB63 /* Model */,
+				B260AEBB202A0B8500C5CB63 /* Data */,
 				B27E2DF22029FFA600B5DFCC /* Testers */,
 				B2E5639F2024BDBF00846821 /* Runner.cpp */,
 				B26EB03F2023735F009F1607 /* Controller */,
