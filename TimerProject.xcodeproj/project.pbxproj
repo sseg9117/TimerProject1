@@ -33,6 +33,7 @@
 		B260AEB3202A088B00C5CB63 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		B260AEB4202A088B00C5CB63 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		B260AEB5202A088B00C5CB63 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		B260AEBF202A10FF00C5CB63 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		B26EB02F202372DD009F1607 /* TimerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimerProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26EB0412023736D009F1607 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		B26EB0442023738E009F1607 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -68,9 +69,18 @@
 		B260AEBC202A0B9600C5CB63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B260AEBE202A10E500C5CB63 /* Nodes */,
 				B2E563A42024BFAC00846821 /* Structures */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B260AEBE202A10E500C5CB63 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				B260AEBF202A10FF00C5CB63 /* Node.hpp */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 		B26EB026202372DD009F1607 = {
