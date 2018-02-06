@@ -34,6 +34,7 @@
 		B260AEB4202A088B00C5CB63 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		B260AEB5202A088B00C5CB63 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		B260AEBF202A10FF00C5CB63 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		B260AEC0202A12A800C5CB63 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		B26EB02F202372DD009F1607 /* TimerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimerProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26EB0412023736D009F1607 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		B26EB0442023738E009F1607 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B260AEBF202A10FF00C5CB63 /* Node.hpp */,
+				B260AEC0202A12A800C5CB63 /* LinearNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
