@@ -41,6 +41,7 @@
 		B26EB0452023738E009F1607 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		B27E2DF4202A002C00B5DFCC /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		B27E2DF5202A002C00B5DFCC /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		B2ADC26C202CB21200DA42AA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		B2E5639F2024BDBF00846821 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		B2E563A12024BF0B00846821 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		B2E563A62024C13500846821 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		B26EB031202372DD009F1607 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				B2ADC26B202CAC6600DA42AA /* Diagrams */,
 				B260AEBC202A0B9600C5CB63 /* Model */,
 				B260AEBB202A0B8500C5CB63 /* Data */,
 				B27E2DF22029FFA600B5DFCC /* Testers */,
@@ -143,10 +145,18 @@
 			path = Testers;
 			sourceTree = "<group>";
 		};
+		B2ADC26B202CAC6600DA42AA /* Diagrams */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Diagrams;
+			sourceTree = "<group>";
+		};
 		B2E563A42024BFAC00846821 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
 				B2E563A62024C13500846821 /* Array.hpp */,
+				B2ADC26C202CB21200DA42AA /* List.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";

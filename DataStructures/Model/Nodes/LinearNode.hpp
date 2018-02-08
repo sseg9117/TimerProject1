@@ -40,7 +40,7 @@ LinearNode<Type> :: LinearNode() : Node<Type>()
  This constuctor is used to create a reference to a instand with data.
  */
 template <class Type>
-LInearNOde<Type> :: LinearNode(Type data) : Node<Type>(data)
+LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)
 {
     this->next = nullptr;
 }
