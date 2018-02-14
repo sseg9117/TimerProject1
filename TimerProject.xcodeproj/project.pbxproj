@@ -28,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B22846FA20348FE800275F69 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		B24A704F2024B0550033E954 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		B24A70502024B0550033E954 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		B260AEB3202A088B00C5CB63 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 			children = (
 				B2E563A62024C13500846821 /* Array.hpp */,
 				B2ADC26C202CB21200DA42AA /* List.hpp */,
+				B22846FA20348FE800275F69 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
