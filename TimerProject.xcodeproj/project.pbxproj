@@ -29,7 +29,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B22846FA20348FE800275F69 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		B24A704F2024B0550033E954 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		B24A70502024B0550033E954 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		B260AEB3202A088B00C5CB63 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		B26EB0452023738E009F1607 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		B275DFD2203C7C8A00982777 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		B275DFD3203C7C8A00982777 /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
+		B275DFD5203C8A1C00982777 /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		B27E2DF4202A002C00B5DFCC /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		B27E2DF5202A002C00B5DFCC /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		B2ADC26C202CB21200DA42AA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -161,9 +161,9 @@
 		B2E563A42024BFAC00846821 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				B275DFD5203C8A1C00982777 /* LinkedList.hpp */,
 				B2E563A62024C13500846821 /* Array.hpp */,
 				B2ADC26C202CB21200DA42AA /* List.hpp */,
-				B22846FA20348FE800275F69 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";

@@ -15,6 +15,7 @@
 #include <sstream>
 #include <iostream>
 #include <vector>
+#include ""
 
 
 using namespace std;
@@ -25,43 +26,6 @@ public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
     
     static LinkedList<CrimeData> readDataToList(string filename);
-    
 };
 
-LinkedList<CrimeData> FileController :: readDataToList(string fileName)
-{
-    LInkedList<CData> crimes;
-    
-    string currentCSvLine;
-    introwCOunt = 0;
-    
-    ifstream dataFile(fileName);
-    
-    //If the file exists at that path.
-    if (dataFile.is_open())
-    {
-        //Keep reading until you are at the end of the file.
-        while (!dataFile.eof())
-        {
-        //grab each line from the CSB separated by the carriage return character.
-            getLine(dataFile, currentSBLine, '\r')
-            if (rowCount != 0)
-            {
-                //Create a CrimeData instance from the line. Exclude a blank line(usually if opened seprately)
-                if(currentCSVLin.legth() != 0 )
-                {
-                    CrimeData row (currentCSVLine);
-                    crimes.add(row);
-                }
-            }
-            rowCount++;
-        }
-        dataFile.close();
-    }
-    else
-    {
-        cerr << "NOFILE" << endl;
-    }
-        return crimes;
-};
 #endif /* FileController_hpp */
