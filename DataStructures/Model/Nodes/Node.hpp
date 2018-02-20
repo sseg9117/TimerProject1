@@ -17,9 +17,9 @@ private:
 protected:
     Type data;
 public:
-    Node()
+    Node();
     Node(Type data);
-    void setData(TypeData);
+    void setData(Type data);
     Type getData();
 };
 template <class Type>

@@ -10,7 +10,7 @@
 #ifndef LinearNode_hpp
 #define LinearNode_hpp
 template <class Type>
-Class LinearNode : public Node<type>
+class LinearNode : public Node<Type>
 {
 private:
 
@@ -20,7 +20,7 @@ public:
     //Constuctors
     LinearNode();
     LinearNode(Type data);
-    LinearNode (Type data, LInearNode<Type> * next);
+    LinearNode (Type data, LinearNode<Type> * next);
     //Methods
     void setNextNode(LinearNode<Type> * next);
     LinearNode<Type> * getNextNode();

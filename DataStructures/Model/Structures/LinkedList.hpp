@@ -81,7 +81,7 @@ void LinkedList<Type> :: add(Type item)
 template <class Type>
 void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
-    asset(index >= 0 && index <= this->size);
+    assets(index >= 0 && index <= this->size);
     if(index == this->size)
     {
         add(item);
