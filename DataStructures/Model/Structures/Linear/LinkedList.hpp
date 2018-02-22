@@ -34,10 +34,10 @@ public:
     LinearNode<Type> * getEnd();
     
     //Structure Methods
-    void add(Type item);
-    void addAtIndex(int index, Type item);
-    Type getFromIndex(int index);
-    Type remove(int index);
+    virtual void add(Type item);
+    virtual void addAtIndex(int index, Type item);
+    virtual Type getFromIndex(int index);
+    virtual Type remove(int index);
     //type setAtIndex(int index, Type item);
     // bool contains(Type item);
 };
@@ -67,7 +67,7 @@ void LinkedList<Type> :: add(Type item)
     
     if(this->size == 0)
     {
-        this->newData;
+        this->front = newData;
     }
     else
     {
@@ -81,7 +81,7 @@ void LinkedList<Type> :: add(Type item)
 template <class Type>
 void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
-    assets(index >= 0 && index <= this->size);
+    assert(index >= 0 && index <= this->size);
     if(index == this->size)
     {
         add(item);
@@ -122,7 +122,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
         current = current->getNextNode();
     }
         
-    data = current->getData;
+    data = current->getData();
         
     return data;
 }

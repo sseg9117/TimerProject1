@@ -36,6 +36,9 @@
 		B260AEB5202A088B00C5CB63 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
 		B260AEBF202A10FF00C5CB63 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		B260AEC0202A12A800C5CB63 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		B26A7D1D203F16F8006FF3A8 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		B26A7D1E203F1702006FF3A8 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		B26A7D1F203F1718006FF3A8 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		B26EB02F202372DD009F1607 /* TimerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimerProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26EB0412023736D009F1607 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		B26EB0442023738E009F1607 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 			children = (
 				B260AEBE202A10E500C5CB63 /* Nodes */,
 				B2E563A42024BFAC00846821 /* Structures */,
+				B26A7D20203F171D006FF3A8 /* NonLinear */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +92,26 @@
 				B260AEC0202A12A800C5CB63 /* LinearNode.hpp */,
 			);
 			path = Nodes;
+			sourceTree = "<group>";
+		};
+		B26A7D1C203F16D8006FF3A8 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				B275DFD5203C8A1C00982777 /* LinkedList.hpp */,
+				B2E563A62024C13500846821 /* Array.hpp */,
+				B2ADC26C202CB21200DA42AA /* List.hpp */,
+				B26A7D1D203F16F8006FF3A8 /* Queue.hpp */,
+				B26A7D1E203F1702006FF3A8 /* Stack.hpp */,
+				B26A7D1F203F1718006FF3A8 /* CircularList.hpp */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
+		B26A7D20203F171D006FF3A8 /* NonLinear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NonLinear;
 			sourceTree = "<group>";
 		};
 		B26EB026202372DD009F1607 = {
@@ -161,9 +185,7 @@
 		B2E563A42024BFAC00846821 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				B275DFD5203C8A1C00982777 /* LinkedList.hpp */,
-				B2E563A62024C13500846821 /* Array.hpp */,
-				B2ADC26C202CB21200DA42AA /* List.hpp */,
+				B26A7D1C203F16D8006FF3A8 /* Linear */,
 			);
 			path = Structures;
 			sourceTree = "<group>";

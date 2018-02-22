@@ -7,7 +7,7 @@
 //
 
 #include <assert.h>
-#include "../Nodes/LinearNode.hpp"
+#include "../../Nodes/LinearNode.hpp"
 
 using namespace std;
 

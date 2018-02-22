@@ -23,11 +23,20 @@ public:
     Type getData();
 };
 template <class Type>
-Node<Type> :: Node()
+Node<Type> :: Node(Type data)
 {
     this->data = data;
 }
-
+template <class Type>
+Node<Type> :: Node()
+{
+    
+}
+template <class Type>
+void Node<Type> :: setData(Type data)
+{
+    this->data = data;
+}
 template <class Type>
 Type Node<Type> :: getData()
 {

@@ -44,10 +44,10 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string fileName)
 
 LinkedList<CrimeData> FileController :: readDataToList(string fileName)
 {
-    LInkedList<CData> crimes;
+    LinkedList<CrimeData> crimes;
     
     string currentCSvLine;
-    introwCOunt = 0;
+    int rowCount = 0;
     
     ifstream dataFile(fileName);
     
@@ -58,13 +58,13 @@ LinkedList<CrimeData> FileController :: readDataToList(string fileName)
         while (!dataFile.eof())
         {
             //grab each line from the CSB separated by the carriage return character.
-            getLine(dataFile, currentSBLine, '\r')
+            getline(dataFile, currentCSvLine, '\r');
             if (rowCount != 0)
             {
                 //Create a CrimeData instance from the line. Exclude a blank line(usually if opened seprately)
-                if(currentCSVLin.legth() != 0 )
+                if(currentCSvLine.length() != 0 )
                 {
-                    CrimeData row (currentCSVLine);
+                    CrimeData row (currentCSvLine);
                     crimes.add(row);
                 }
             }
