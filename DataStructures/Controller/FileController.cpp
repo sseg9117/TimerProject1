@@ -1,10 +1,10 @@
 //
-//  FileController.cpp
-//  TimerProject
+//FileController.cpp
+//TimerProject
 //
-//  Created by Segota, Sheradon on 2/2/18.
-//  Copyright © 2018 Segota, Sheradon. All rights reserved.
-//
+//Created by Segota, Sheradon on 2/2/18.
+//Copyright © 2018 Segota, Sheradon. All rights reserved.
+
 
 #include "FileController.hpp"
 
@@ -14,9 +14,9 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string fileName)
     std :: vector<CrimeData> crimeVector;
     string currentCSVLine;
     int rowCount = 0;
-    
+
     ifstream dataFile(fileName);
-    
+
     //If the file exists at that path
     if (dataFile.is_open())
     {
@@ -38,7 +38,7 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string fileName)
     {
         cerr << "NO FILE" << endl;
     }
-    
+
     return crimeVector;
 }
 

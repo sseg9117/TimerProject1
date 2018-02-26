@@ -7,34 +7,39 @@
 //
 
 #include "Controller.hpp"
-
+#include "ArrayTester.hpp"
 using namespace std;
 
 void Controller :: start()
 {
-    cout << "Testing the timeclass" << endl;
-    Timer codeTimer;
-    codeTimer.startTimer();
-    cout << "print something to the screen!" << endl;
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
+//    cout << "Testing the timeclass" << endl;
+//    Timer codeTimer;
+//    codeTimer.startTimer();
+//    cout << "print something to the screen!" << endl;
+//    codeTimer.stopTimer();
+//    codeTimer.displayInformation();
+//
+//    codeTimer.resetTimer();
+//
+//    codeTimer.startTimer();∫
+//    for(int i = 0; i < 216; i++)
+//    {
+//        cout << " index is at " << i << "\t";
+//    }
+//    codeTimer.stopTimer();
+//    codeTimer.displayInformation();
     
-    codeTimer.resetTimer();
+    ArrayTester myTest;
+    myTest.testArrayUse();
+    myTest.testAdvancedArray();
     
-    codeTimer.startTimer();
-    for(int i = 0; i < 216; i++)
-    {
-        cout << " index is at " << i << "\t";
-    }
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
 }
 
 void Controller :: findMaxAndMin()
 {
     Timer searchTimer;
     searchTimer.startTimer();
-    vector<CrimeData> myData = FileController::readCrimeDataToVector("/Users/sseg9117/Documents/Data Structures/TimerProject/TimerProject/Data/crime.csv");
+    vector<CrimeData> myData = FileController::readCrimeDataToVector("/Users/sseg9117/Documents/Data Structures/TimerProject/DataStructures/Data/crime.csv");
     
     int minIndex = 0;
     int maxIndex = 0;
