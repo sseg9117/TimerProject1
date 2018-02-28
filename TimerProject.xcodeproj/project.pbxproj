@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B24A70512024B0550033E954 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B24A704F2024B0550033E954 /* FileController.cpp */; };
+		B252CF1D2047116200052EBB /* TestStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B252CF1C2047116200052EBB /* TestStacksAndQueues.cpp */; };
 		B260AEB6202A088B00C5CB63 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B260AEB5202A088B00C5CB63 /* CrimeData.cpp */; };
-		B26A7D23203F2B0F006FF3A8 /* StackTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26A7D21203F2B0F006FF3A8 /* StackTester.cpp */; };
-		B26A7D26203F2B1D006FF3A8 /* QueueTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26A7D24203F2B1D006FF3A8 /* QueueTester.cpp */; };
 		B26EB0462023738E009F1607 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26EB0442023738E009F1607 /* Timer.cpp */; };
 		B275DFD4203C7C8A00982777 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B275DFD2203C7C8A00982777 /* LinkedListTester.cpp */; };
 		B27E2DF6202A002C00B5DFCC /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B27E2DF4202A002C00B5DFCC /* ArrayTester.cpp */; };
@@ -33,6 +32,8 @@
 /* Begin PBXFileReference section */
 		B24A704F2024B0550033E954 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		B24A70502024B0550033E954 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
+		B252CF1B20470F7C00052EBB /* TestStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestStacksAndQueues.hpp; sourceTree = "<group>"; };
+		B252CF1C2047116200052EBB /* TestStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestStacksAndQueues.cpp; sourceTree = "<group>"; };
 		B260AEB3202A088B00C5CB63 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		B260AEB4202A088B00C5CB63 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		B260AEB5202A088B00C5CB63 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -41,10 +42,6 @@
 		B26A7D1D203F16F8006FF3A8 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		B26A7D1E203F1702006FF3A8 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		B26A7D1F203F1718006FF3A8 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
-		B26A7D21203F2B0F006FF3A8 /* StackTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackTester.cpp; sourceTree = "<group>"; };
-		B26A7D22203F2B0F006FF3A8 /* StackTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackTester.hpp; sourceTree = "<group>"; };
-		B26A7D24203F2B1D006FF3A8 /* QueueTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTester.cpp; sourceTree = "<group>"; };
-		B26A7D25203F2B1D006FF3A8 /* QueueTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTester.hpp; sourceTree = "<group>"; };
 		B26EB02F202372DD009F1607 /* TimerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimerProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26EB0412023736D009F1607 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		B26EB0442023738E009F1607 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -179,10 +176,8 @@
 				B27E2DF5202A002C00B5DFCC /* ArrayTester.hpp */,
 				B275DFD2203C7C8A00982777 /* LinkedListTester.cpp */,
 				B275DFD3203C7C8A00982777 /* LinkedListTester.hpp */,
-				B26A7D21203F2B0F006FF3A8 /* StackTester.cpp */,
-				B26A7D22203F2B0F006FF3A8 /* StackTester.hpp */,
-				B26A7D24203F2B1D006FF3A8 /* QueueTester.cpp */,
-				B26A7D25203F2B1D006FF3A8 /* QueueTester.hpp */,
+				B252CF1B20470F7C00052EBB /* TestStacksAndQueues.hpp */,
+				B252CF1C2047116200052EBB /* TestStacksAndQueues.cpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -263,10 +258,9 @@
 				B2E563A02024BDBF00846821 /* Runner.cpp in Sources */,
 				B260AEB6202A088B00C5CB63 /* CrimeData.cpp in Sources */,
 				B2E563A22024BF0B00846821 /* Controller.cpp in Sources */,
+				B252CF1D2047116200052EBB /* TestStacksAndQueues.cpp in Sources */,
 				B275DFD4203C7C8A00982777 /* LinkedListTester.cpp in Sources */,
-				B26A7D23203F2B0F006FF3A8 /* StackTester.cpp in Sources */,
 				B27E2DF6202A002C00B5DFCC /* ArrayTester.cpp in Sources */,
-				B26A7D26203F2B1D006FF3A8 /* QueueTester.cpp in Sources */,
 				B24A70512024B0550033E954 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
