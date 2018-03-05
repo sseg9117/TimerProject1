@@ -9,7 +9,14 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 #include "Tools/Timer.hpp"
-#include "../Data/CrimeData.hpp"
+#include "FileController.hpp"
+#include "../Model/Structures/Linear/Array.hpp"
+#include "../Testers/ArrayTester.hpp"
+#include "../Testers/LinkedListTester.hpp"
+#include "../Testers/TestStacksAndQueues.hpp"
+#include "../Testers/RecursionTester.hpp"
+
+
 
 #include <iostream>
 #include <vector>
@@ -18,6 +25,8 @@
 class Controller
 {
 private:
+    void testStacksAndQueues();
+    void testArray();
     void findMaxAndMin();
 public:
     void start();

@@ -19,7 +19,7 @@
 #include <iostream>
 
 using namespace std;
-class StacksAndQueuesTester
+class stacksAndQueuesTester
 {
 public:
     void stackVersusList();

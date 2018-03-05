@@ -10,6 +10,5 @@
 
 void TestStacksAndQueues :: stackVersusList()
 {
-    StackQueues<int> numbers;
-    numbers.add(9)
+
 }

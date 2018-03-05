@@ -12,29 +12,16 @@ using namespace std;
 
 void Controller :: start()
 {
-//    cout << "Testing the timeclass" << endl;
-//    Timer codeTimer;
-//    codeTimer.startTimer();
-//    cout << "print something to the screen!" << endl;
-//    codeTimer.stopTimer();
-//    codeTimer.displayInformation();
-//
-//    codeTimer.resetTimer();
-//
-//    codeTimer.startTimer();∫
-//    for(int i = 0; i < 216; i++)
-//    {
-//        cout << " index is at " << i << "\t";
-//    }
-//    codeTimer.stopTimer();
-//    codeTimer.displayInformation();
-    
-    ArrayTester myTest;
-    myTest.testArrayUse();
-    myTest.testAdvancedArray();
-    
+    RecursionTester test;
+    test.testRecursionNumbers();
 }
-
+//void Controller :: testStacksAndQueues()
+//{
+//    testStacksAndQueues myTest;
+//    myTest.queueVersusList();
+//    myTest.stackVersusQueue();
+//    myTest.stackVersusList();
+//}
 void Controller :: findMaxAndMin()
 {
     Timer searchTimer;
