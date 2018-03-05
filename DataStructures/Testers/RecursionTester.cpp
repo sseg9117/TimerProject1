@@ -16,17 +16,34 @@ int RecursionTester :: fib(int number)
     }
     else
     {
-        cout << "calling fib with: " << number - 1 << " and " << number - 2 << endl;
         return fib (number - 1) + fib (number -2);
     }
 }
 
 string RecursionTester :: mystery(string word)
 {
-    return "";
-    
-}
+    if ( word.length() == 1)
+    {
+        return word;
+    }
+    else
+    {
+        
+        return word + mystery(word.substr(0,word.length()-1));
+    }
 
+}
+string RecursionTester  :: mysterytwo(string word)
+{
+    if ( word.length() == 1)
+    {
+        return word;
+    }
+    else
+    {
+        return word + mysterytwo(word.substr(1,word.length()-1));
+    }
+}
 void RecursionTester :: testRecursionNumbers()
 {
     Timer recursionTimer;
@@ -39,5 +56,8 @@ void RecursionTester :: testRecursionNumbers()
 
 void RecursionTester :: testRecursionString()
 {
-    
+    cout << mystery("X") << endl;
+    cout << mystery("car") << endl;
+    cout << mystery("apple") << endl;
+    cout << mysterytwo("hello") << endl;
 }

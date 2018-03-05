@@ -181,8 +181,8 @@
 				B275DFD3203C7C8A00982777 /* LinkedListTester.hpp */,
 				B252CF1B20470F7C00052EBB /* TestStacksAndQueues.hpp */,
 				B252CF1C2047116200052EBB /* TestStacksAndQueues.cpp */,
-				B27D225D204D8F470061AF6D /* RecursionTester.cpp */,
 				B27D225E204D8F470061AF6D /* RecursionTester.hpp */,
+				B27D225D204D8F470061AF6D /* RecursionTester.cpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
