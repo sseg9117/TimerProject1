@@ -33,13 +33,13 @@ class Queue : public LinkedList<Type>
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type rmeove(int index);
-}
+};
 template <class Type>
-Queue<Type> :: Queue() : LinkedLIst<Type>()
+Queue<Type> :: Queue() : LinkedList<Type>()
 {
     //Empty since it is handled by the parent class constructor.
 }
-template <class Type
+template <class Type>
 Queue<Type> :: ~Queue()
 {
     for(LinearNode<Type>  * removed = this->front; removed != nullptr; removed = this->front)
@@ -93,24 +93,24 @@ Type Queue<Type> :: dequeue()
     return returned;
 }
 template <class Type>
-Type Queue<Type> :: remove(int index)
+Type Queue<Type> :: rmeove(int index)
 {
     assert(index == 0);
-    reuturn dequeue();
+    return dequeue();
 }
 template <class Type>
 void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
-        cout << dequeue()0 << enl;
+        cout << dequeue();0 << endl;
     }
 }
 template <class Type>
 Type Queue<Type> :: peek()
 {
     assert(this->size > 0);
-    return this->getFront()_getData();
+    return this->getFront().getData();
 }
 template <class Type>
 Type Queue<Type> :: getFromIndex(int index)

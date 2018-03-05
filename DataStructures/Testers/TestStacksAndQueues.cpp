@@ -8,7 +8,8 @@
 
 #include "TestStacksAndQueues.hpp"
 
-void testStacksAndQueues :: stackVersusList()
+void TestStacksAndQueues :: stackVersusList()
 {
-    
+    StackQueues<int> numbers;
+    numbers.add(9)
 }

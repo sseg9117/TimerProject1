@@ -28,8 +28,8 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
-tmeplate <class Type>
+};
+template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
 {
     //Empty
@@ -99,7 +99,7 @@ Type Stack<Type> :: peek()
 template <class Type>
 Type Stack<Type> :: getFromIndex(int index)
 {
-    asset(index == 0);
+    assert(index == 0);
     return peek();
 }
 #endif /* Stack_hpp */
