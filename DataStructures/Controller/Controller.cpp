@@ -8,6 +8,10 @@
 
 #include "Controller.hpp"
 #include "ArrayTester.hpp"
+#include "LinkedListTester.hpp"
+#include "TestStacksAndQueues.hpp"
+#include "RecursionTester.hpp"
+
 using namespace std;
 
 void Controller :: start()
@@ -23,6 +27,10 @@ void Controller :: start()
 //    myTest.stackVersusQueue();
 //    myTest.stackVersusList();
 //}
+LinkedListTester tester;
+//tester.testListBasics();
+//tester.testListWithData();
+
 void Controller :: findMaxAndMin()
 {
     Timer searchTimer;

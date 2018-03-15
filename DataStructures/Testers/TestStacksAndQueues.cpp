@@ -8,8 +8,18 @@
 
 #include "TestStacksAndQueues.hpp"
 
-//void TestStacksAndQueues :: stackVersusList()
-//{
-//
-//}
+void StacksAndQueuesTester :: stackVersusList()
+{
+
+}
+
+void StacksAndQueuesTester :: stackVersusQueue()
+{
+    
+}
+void StacksAndQueuesTester :: queueVersusList()
+{
+    
+}
+
 
