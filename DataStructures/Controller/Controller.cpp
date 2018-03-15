@@ -7,18 +7,13 @@
 //
 
 #include "Controller.hpp"
-#include "ArrayTester.hpp"
-#include "LinkedListTester.hpp"
-#include "TestStacksAndQueues.hpp"
-#include "RecursionTester.hpp"
 
 using namespace std;
 
 void Controller :: start()
 {
-    RecursionTester test;
-    test.testRecursionNumbers();
-    test.testRecursionString();
+    SortingTester my;
+    my.testSorts();
 }
 //void Controller :: testStacksAndQueues()
 //{
@@ -27,9 +22,6 @@ void Controller :: start()
 //    myTest.stackVersusQueue();
 //    myTest.stackVersusList();
 //}
-LinkedListTester tester;
-//tester.testListBasics();
-//tester.testListWithData();
 
 void Controller :: findMaxAndMin()
 {

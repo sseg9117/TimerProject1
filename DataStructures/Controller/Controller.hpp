@@ -10,6 +10,11 @@
 #define Controller_hpp
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
+#include "ArrayTester.hpp"
+#include "LinkedListTester.hpp"
+#include "TestStacksAndQueues.hpp"
+#include "RecursionTester.hpp"
+#include "SortingTester.hpp"
 #include "../Model/Structures/Linear/Array.hpp"
 #include "../Testers/ArrayTester.hpp"
 #include "../Testers/LinkedListTester.hpp"
