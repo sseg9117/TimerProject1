@@ -201,7 +201,7 @@ void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, 
     {
         if(!visited[*setIterator])
         {
-            depthFirstTraversal(currentGraph, *setIterator, visted);
+            depthFirstTraversal(currentGraph, *setIterator, visted); //recursive call
         }
     }
 }
