@@ -8,7 +8,6 @@
 
 #ifndef Graph_hpp
 #define Graph_hpp
-
 #include <set>
 #include <queue>
 #include <assert.h>
@@ -29,15 +28,15 @@ private:
 public:
     Graph();
     
-    //operations
+    //Operations
     void addVertex(const Type& value);
     
-    //connect vertices
+    //Connect vertices
     void addEdge(int source, int target);
     void addEdgeUndirected(int source, int target);
     void addEdgeCost(int source, int target, int cost);
     
-    //disconnect vertices
+    //Disconnect vertices
     void removeEdge(int source, int target);
     void removeEdgeUndirected(int source, int target);
     void removeEdgeCost(int source, int target);
