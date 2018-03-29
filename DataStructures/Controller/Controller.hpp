@@ -20,6 +20,7 @@
 #include "../Testers/LinkedListTester.hpp"
 #include "../Testers/TestStacksAndQueues.hpp"
 #include "../Testers/RecursionTester.hpp"
+#include "../Testers/BinaryTreeTester.hpp"
 
 
 

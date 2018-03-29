@@ -12,8 +12,8 @@ using namespace std;
 
 void Controller :: start()
 {
-    SortingTester my;
-    my.testSorts();
+    BinaryTreeTester tree;
+    tree.doTreeStuff();
 }
 //void Controller :: testStacksAndQueues()
 //{

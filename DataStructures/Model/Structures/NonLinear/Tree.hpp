@@ -18,8 +18,8 @@ protected:
 public:
     //Informational methods
     virtual int getSize() = 0;
-    virtual int getHieght() =0;
-    virtual bool isCOmplete() = 0;
+    virtual int getHeight() =0;
+    virtual bool isComplete() = 0;
     virtual bool isBalanced() = 0;
     //*datamethods*
     virtual void insert(Type data) = 0;

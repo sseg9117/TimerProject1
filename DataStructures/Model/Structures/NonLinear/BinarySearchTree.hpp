@@ -6,8 +6,8 @@
 //  Copyright © 2018 Segota, Sheradon. All rights reserved.
 //
 
-#ifndef BinaryTree_h
-#define BinaryTree_h
+#ifndef BinaryTree_hpp
+#define BinaryTree_hpp
 
 #include "Tree.hpp"
 #include <iostream>
@@ -19,11 +19,11 @@ class BinarySearchTree : public Tree<Type>
 protected:
     
     int calculateSize(BinaryTreeNode<Type> * startNode);
-    int calculateHeight(BinaryTreeNode<Type>)
+    int calculateHeight(BinaryTreeNode<Type>);
     bool isBalanced(BinaryTreeNode<Type> * startNode);
     bool isComplete(BinaryTreeNode<Type> * startNode, int index, int size);
     
-    void inORderTraversal(BinaryTreeNode<Type> * inStart);
+    void inOrderTraversal(BinaryTreeNode<Type> * inStart);
     void preOrderTraversal(BinaryTreeNode<Type> * preStart);
     void postOrderTraversal(BinaryTreeNode<Type> * startNode, int index, int size);
     
@@ -41,8 +41,8 @@ public:
     void setRoot(BinaryTreeNode<Type> * root);
     
     void inOrderTraversal();
-    void preORderTraversal();
-    void postORderTraversal();
+    void preOrderTraversal();
+    void postOrderTraversal();
     void demoTraversalSteps(BinaryTreeNode<Type> * Node);
     
     int getSize();
@@ -67,11 +67,11 @@ BinarySearchTree<Type> :: BinarySearchTree()
 template <class Type>
 void BinarySearchTree<Type> :: insert(Type itemToInsert)
 {
-    BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(ItemToINsert);
+    BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
     BinaryTreeNode<Type> * previous = nullptr;
     BinaryTreeNode<Type> * current = this->root;
     
-    if(current == nulptr)
+    if(current == nullptr)
     {
         this->root = insertMe;
     }
@@ -80,21 +80,23 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
         while(current != nullptr)
         {
             previous = current;
-            if(itemToInsert < current - >getData())
+            if(itemToInsert < current ->getData())
             {
                 current = current->getLeftNode();
             }
-t            {
+            else if(itemToInsert > current->getData())
+            {
                 current = current->getRightNode();
+            }
             else
             {
-                cerr <, "Item exists already - Exiting insert" << endl;
+                cerr << "Item exists already - Exiting insert" << endl;
                 delete insertMe;
                 return;
             }
         }
             
-        if (previous->getData(0 > itemToInsert)
+        if (previous->getData() > itemToInsert)
         {
             previous->setLeftNode(insertMe);
         }
@@ -106,4 +108,78 @@ t            {
         
     }
 }
-#endif /* BinaryTree_h */
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal()
+{
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: postOrderTraversal()
+{
+}
+
+template <class Type>
+BinarySearchTree<Type> :: ~BinarySearchTree()
+{
+    
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: contains(Type value)
+{
+    return false;
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: remove(Type value)
+{
+}
+template <class Type>
+int BinarySearchTree<Type> :: getHeight()
+{
+    return -1;
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: getSize()
+{
+    return -1;
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: isComplete()
+{
+    return false;
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: isBalanced()
+{
+    return false;
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal()
+{
+    inOrderTraversal(this->root);
+}
+            
+/*
+ in order trazversal foes in the order
+ left, root, rightnotice that the
+ no recursive case does nothing
+ */
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * inStart)
+{
+    if(inStart != nullptr)
+    {
+        cout << "goingleft" << endl;
+        inOrderTraversal(inStart->getLeftNode());
+        cout << "Node Contrents: " << inStart->getData() << endl;
+        cout << "going riight" << endl;
+        inOrderTraversal(inStart->getRightNode());
+    }
+}
+
+#endif /* BinaryTree_hpp */
