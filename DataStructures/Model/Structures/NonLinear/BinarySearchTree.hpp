@@ -84,8 +84,7 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
             {
                 current = current->getLeftNode();
             }
-            else if(itemToInsert > current->getData())
-            {
+t            {
                 current = current->getRightNode();
             else
             {
