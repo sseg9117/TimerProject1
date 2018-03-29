@@ -180,6 +180,10 @@ void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * inStart)
         cout << "going riight" << endl;
         inOrderTraversal(inStart->getRightNode());
     }
+    else
+    {
+        cout << " empty sub tree - leave " << endl;
+    }
 }
 
 #endif /* BinaryTree_hpp */
