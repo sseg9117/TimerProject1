@@ -6,8 +6,14 @@
 //  Copyright © 2018 Segota, Sheradon. All rights reserved.
 //
 
+#include "../../Nodes/HashNode.hpp"
+#include <cmath>
+#include <assert.h>
+
 #ifndef Hashtable_h
 #define Hashtable_h
+HashNode<Type> * get(long index);
+bool contains(HashNode<Type> * value);
 template <class Type>
 long Hashtable<Type> :: getNextPrime()
 {
