@@ -18,7 +18,8 @@ private:
 public:
     HashNode();
     HashNode(Type data);
-    
+    HashNode<Type> * get(long index);
+    bool contains(HashNode<Type> * value);
     long getKey() const;
 };
 
