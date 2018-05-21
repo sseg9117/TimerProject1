@@ -6,27 +6,25 @@
 //  Copyright © 2018 Segota, Sheradon. All rights reserved.
 //
 
-#ifndef TestStacksAndQueues_hpp
-#define TestStacksAndQueues_hpp
+#ifndef TestingStacksAndQueues_hpp
+#define TestingStacksAndQueues_hpp
+#include <iostream>
 #include "../Controller/Tools/Timer.hpp"
 #include "../Controller/FileController.hpp"
-#include "../Model/Structures/Linear/List.hpp"
-#include "../Model/Structures/Linear/Array.hpp"
-#include "../Model/Structures/Linear/Queue.hpp"
 #include "../Model/Structures/Linear/Stack.hpp"
-#include "../Model/Structures/Linear/CircularList.hpp"
-
-#include <iostream>
+#include "../Model/Structures/Linear/Queue.hpp"
+#include "../Model/Structures/Linear/List.hpp"
 
 using namespace std;
-class StacksAndQueuesTester
+
+class TestingStacksAndQueues
 {
 public:
     void stackVersusList();
     void stackVersusQueue();
     void queueVersusList();
+    
+    
 };
 
-
-
-#endif /* TestStacksAndQueues_hpp */
+#endif /* TestingStacksAndQueues_hpp */

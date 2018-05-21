@@ -22,5 +22,4 @@ public:
     void testListWithData();
 };
 
-
 #endif /* LinkedListTester_hpp */
