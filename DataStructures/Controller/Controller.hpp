@@ -31,8 +31,6 @@
 class Controller
 {
 private:
-    void testStacksAndQueues();
-    void testArray();
     void findMaxAndMin();
 public:
     void start();

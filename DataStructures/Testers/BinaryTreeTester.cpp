@@ -25,5 +25,20 @@ void BinaryTreeTester :: doTreeStuff()
     testTree.insert(420);
     testTree.insert(600);
     
-    testTree.inOrderTraversal();
+//    testTree.inOrderTraversal();
+    testTree.preOrderTraversal();
+//    testTree.postOrderTraversal();
+    
+    cout << testTree.isComplete() << endl;
+    cout << testTree.isBalanced() << endl;
+    cout << testTree.getHeight() << endl;
+    BinarySearchTree<string> wordTree;
+    wordTree.insert("Cake");
+    wordTree.insert("Pizza");
+    wordTree.insert("Chips");
+    wordTree.insert("Somthing IDK");
+
+    cout << wordTree.isBalanced() << endl;
+    cout << wordTree.isComplete() << endl;
+    cout << wordTree.getHeight() << endl;
 }

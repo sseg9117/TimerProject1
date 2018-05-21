@@ -15,13 +15,6 @@ void Controller :: start()
     BinaryTreeTester tree;
     tree.doTreeStuff();
 }
-//void Controller :: testStacksAndQueues()
-//{
-//    testStacksAndQueues myTest;
-//    myTest.queueVersusList();
-//    myTest.stackVersusQueue();
-//    myTest.stackVersusList();
-//}
 
 void Controller :: findMaxAndMin()
 {

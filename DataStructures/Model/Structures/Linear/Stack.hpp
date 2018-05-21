@@ -9,6 +9,7 @@
 #ifndef Stack_hpp
 #define Stack_hpp
 
+#include <stdio.h>
 #include "LinkedList.hpp"
 
 template <class Type>
@@ -17,12 +18,10 @@ class Stack : public LinkedList<Type>
 public:
     Stack();
     ~Stack();
-    
     //Stack specific methods
     void push(Type data);
     Type pop();
     Type peek();
-    
     //Overridden LinkedList methods
     void add(Type data);
     void addAtIndex(int index, Type data);
@@ -32,7 +31,7 @@ public:
 template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
 {
-    //Empty
+    //empty
 }
 template <class Type>
 Stack<Type> :: ~Stack()
@@ -73,11 +72,11 @@ void Stack<Type> :: addAtIndex(int index, Type data)
 template <class Type>
 Type Stack<Type> :: pop()
 {
-    assert (this->size > 0);
+    assert(this->size > 0);
     Type removed = this->front->getData();
     
     LinearNode<Type> * removedNode = this->getFront();
-    this->setFront(removedNode->getNextNode());
+    this->front = removedNode->getNextNode();
     delete removedNode;
     
     this->size--;
@@ -102,4 +101,6 @@ Type Stack<Type> :: getFromIndex(int index)
     assert(index == 0);
     return peek();
 }
+
 #endif /* Stack_hpp */
+
