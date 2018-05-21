@@ -49,6 +49,7 @@ LinkedList<Type> :: LinkedList()
     this->end = nullptr;;
     this->size = 0;
 }
+
 template <class Type>
 LinkedList<Type> :: ~LinkedList()
 {
@@ -60,6 +61,7 @@ LinkedList<Type> :: ~LinkedList()
         destroyStructure = front;
     }
 }
+
 template <class Type>
 void LinkedList<Type> :: add(Type item)
 {
@@ -78,6 +80,7 @@ void LinkedList<Type> :: add(Type item)
     
     this->size += 1;
 }
+
 template <class Type>
 void LinkedList<Type> :: addAtIndex(int index, Type item)
 {
@@ -109,6 +112,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         this->size++;
     }
 }
+
 template <class Type>
 Type LinkedList<Type> :: getFromIndex(int index)
 {
@@ -126,6 +130,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
         
     return data;
 }
+
 template <class Type>
 Type LinkedList<Type> :: remove(int index)
 {
@@ -168,16 +173,19 @@ Type LinkedList<Type> :: remove(int index)
         delete toBeRemoved;
         return removedData;
 }
-    template <class Type>
+
+template <class Type>
 LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this->end;
 }
+
 template <class Type>
 LinearNode<Type> * LinkedList<Type> :: getFront()
 {
     return this->front;
 }
+
 template <class Type>
 int LinkedList<Type> :: getSize() const 
 {
