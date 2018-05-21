@@ -6,19 +6,19 @@
 //  Copyright © 2018 Segota, Sheradon. All rights reserved.
 //
 
-#include "TestingStacksAndQueues.hpp"
+#include "TestStacksAndQueues.hpp"
 
-void TestingStacksAndQueues :: queueVersusList()
+void TestStacksAndQueues :: queueVersusList()
 {
     
 }
 
-void TestingStacksAndQueues :: stackVersusQueue()
+void TestStacksAndQueues :: stackVersusQueue()
 {
-    //TODO pg 4
+
 }
 
-void TestingStacksAndQueues :: stackVersusList()
+void TestStacksAndQueues :: stackVersusList()
 {
     Stack<int> numberStack;
     LinkedList<int> numberList;
