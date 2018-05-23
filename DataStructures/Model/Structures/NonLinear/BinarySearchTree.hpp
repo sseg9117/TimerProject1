@@ -95,7 +95,7 @@ void BinarySearchTree<Type> :: insert(Type item)
             }
             else
             {
-                cerr<< "Item Exists Already - exiting insert" << endl;
+                cerr<< "Item Exists - exiting" << endl;
                 delete insertMe;
                 return;
             }

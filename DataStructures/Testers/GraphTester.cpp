@@ -104,6 +104,7 @@ void GraphTester :: setup()
     puzzle.addEdgeCost(12, 22, 13);
     puzzle.addEdgeCost(13, 15, 88);
     puzzle.addEdgeCost(19, 13, 21);
+    
 }
 
 //void testGraphs() :: compareTraversals()
