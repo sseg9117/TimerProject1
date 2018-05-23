@@ -24,10 +24,7 @@ void BinaryTreeTester :: doTreeStuff()
     testTree.insert(10);
     testTree.insert(420);
     testTree.insert(600);
-    
-//    testTree.preOrderTraversal();
-//    testTree.inOrderTraversal();
-//    testTree.postOrderTraversal();
+
     
     cout << testTree.isComplete() << endl;
     cout << testTree.isBalanced() << endl;
@@ -41,4 +38,8 @@ void BinaryTreeTester :: doTreeStuff()
     cout << wordTree.isBalanced() << endl;
     cout << wordTree.isComplete() << endl;
     cout << wordTree.getHeight() << endl;
+    
+    //    testTree.preOrderTraversal();
+//        testTree.inOrderTraversal();
+        testTree.postOrderTraversal();
 }
